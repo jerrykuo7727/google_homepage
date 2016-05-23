@@ -1,0 +1,10 @@
+html, body {
+	height: 100%
+}
+
+#logo {
+	max-height: 180px; max-width: 450px;
+	top: 12%; left: 50%;
+	transform: translate(-50%, 0);
+	position: absolute;
+}
