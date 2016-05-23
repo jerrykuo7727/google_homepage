@@ -2,6 +2,13 @@ body, html {
 	height: 100%;
 }
 
+#center {
+	width: 526px; height: 355px;
+	top: 12%; left: 50%;
+	transform: translate(-50%, 0);
+	position: relative;
+}
+
 #logo {
 	max-width: 500px;
 	top: 2%; left: 50%;
@@ -15,15 +22,19 @@ body, html {
 	border-radius: 0;
 	position: relative;
 	border: 1px solid #D9D9D9;
-	margin-bottom: 33px
+	margin-bottom: 33px;
+	padding-left: 12px;
 }
 
-#center {
-	width: 526px; height: 355px;
-	top: 12%; left: 50%;
-	transform: translate(-50%, 0);
-	position: relative;
+#search:hover {
+	border: 1px solid #B9B9B9;
+	border-top: 1px solid #A0A0A0;
 }
+
+#search:focus {
+	border: 1px solid #4D90FE;
+}
+
 
 #buttons {
 	width: 526px; height: 42px;
