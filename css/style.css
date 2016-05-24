@@ -2,8 +2,15 @@ body, html {
 	height: 100%;
 	font-family: Arial;
 	font-size: 14px;
+	color: #646464;
 }
 
+body {
+	position: relative;
+}
+ul, li {
+	overflow: hidden;
+}
 #top a {
 	text-align: center;
 	position: relative;
@@ -21,17 +28,16 @@ body, html {
 .img {
 	margin-right: 20px;
 }
-ul {
+#top ul {
 	height: 30px;
 	padding: 0;
 	display: block;
-    overflow: hidden;
     float: right;
     position: relative;
 
 }
 
-li {
+#top {
 	height: 25px; width: 800px; 
     display: inline;
     position: relative;
@@ -49,7 +55,7 @@ li {
 	opacity: 1;
 }
 
-li img {
+#top img {
     position: relative;
     top: 50%;
     transform: translate(0, -50%);
@@ -99,7 +105,6 @@ li img {
 #result, #goodluck {
 	height: 100%;
 	border: 0;
-	color: #757575;
 }
 
 #result:hover, #goodluck:hover {
@@ -121,4 +126,49 @@ li img {
 #goodluck {
 	width: 85px;
 	display: inline-block;
+}
+
+#bottom {
+	width: 100%; height: 60px;
+	position: absolute;
+	bottom: 0;
+}
+
+#bottom_left, #bottom_right {
+	display: inline;
+}
+
+#bottom_left {
+	position: relative;
+	bottom: 0;
+	float: left;
+	left: 0;
+}
+
+#bottom_left {
+	position: relative;
+	bottom: 0;
+}
+
+#bottom_right {
+	bottom: 0;
+	position: relative;
+	float: right;
+	right: 0;
+}
+
+#bottom_left ul {
+	float: left;
+	padding: 0;
+	margin-left: 28px;
+}
+
+#bottom_right ul {
+	float: right;
+	padding: 0;
+	margin-right: 28px;
+}
+
+#bottom a:hover {
+	text-decoration: underline;
 }
